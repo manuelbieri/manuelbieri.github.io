@@ -1,3 +1,3 @@
 # manuelbieri.github.io
 
-This is my personal webpage created with Github Pages.
+This is my personal webpage created with GitHub Pages.
