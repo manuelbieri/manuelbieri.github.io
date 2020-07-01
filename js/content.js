@@ -1,3 +1,5 @@
+//written by Manuel Bieri, 2020
+
 function navbar() {
     document.write(
         '<div class="navbar">\n' +
