@@ -56,3 +56,17 @@ body {
 .content {
     margin: 2%;
 }
+
+.footer {
+    width: 80%;
+    background-color: lightgray;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.footer h3 {
+    margin: auto;
+    text-align: center;
+}
