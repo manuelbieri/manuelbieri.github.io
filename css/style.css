@@ -1,6 +1,10 @@
 /*written by Manuel Bieri, 2020*/
 
-* {box-sizing: border-box}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 body {
     font-family: "Courier New", serif;
@@ -9,7 +13,7 @@ body {
 
 .main {
     width: 80%;
-    height: 100vh;
+    height: 100%;
     margin: auto;
     background-color: #f8ffff;
 }
@@ -60,15 +64,18 @@ body {
 }
 
 .content {
-    margin: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    min-height: 93vh;
 }
 
 .footer {
-    width: 80%;
+    width: 104%;
     background-color: lightgray;
     text-align: center;
     position: absolute;
     bottom: 0;
-    left: 10%;
+    left: -2%;
     padding: 6px;
 }
