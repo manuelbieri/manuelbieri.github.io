@@ -5,9 +5,16 @@ body {
     margin: 0;
 }
 
+.main {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color: aliceblue;
+}
+
 .navbar {
     list-style-type: none;
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 0;
     overflow: auto;
@@ -46,3 +53,6 @@ body {
     background-color: #8d8d8d;
 }
 
+.content {
+    margin: 2%;
+}
