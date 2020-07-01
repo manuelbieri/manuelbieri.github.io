@@ -1,0 +1,18 @@
+body {
+    font-family: "Courier New", serif;
+}
+
+.navbar li{
+    display: inline;
+    width: 16.666%;
+}
+
+.navbar {
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+
+#navbar_div {
+    width: 100%;
+}
