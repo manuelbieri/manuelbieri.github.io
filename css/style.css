@@ -32,12 +32,16 @@ body {
     width: 20%;
 }
 
-@media screen and (max-width: 750px){
-    .navbar a{
+@media screen and (max-width: 750px) {
+    .navbar a {
         float: none;
         display: block;
         width: 100%;
         text-align: center;
+    }
+
+    .main {
+        width: 100%;
     }
 }
 
