@@ -7,6 +7,5 @@ function navbar() {
         '    <a href="forex.html">ForEx</a>\n' +
         '    <a href="info.html">Info</a>\n' +
         '</div>'
-    )
-
+    );
 }
