@@ -14,7 +14,6 @@ function navbar() {
 
 function footer() {
     document.write(
-        '<br>\n' +
         '<div class="footer">\n' +
         '    Hand-crafted by Manuel Bieri, 2020 (GPL V3)\n' +
         '</div>'
