@@ -35,7 +35,7 @@ body {
     float: left;
     padding: 12px;
     width: 20%;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .navbar a:active {
@@ -73,10 +73,11 @@ body {
 .fsimg {
     width: 80%;
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    padding-bottom: 6%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 690px) {
     .navbar a {
         float: none;
         display: block;
