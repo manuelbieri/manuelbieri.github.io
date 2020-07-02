@@ -13,11 +13,11 @@ function meta() {
 function navbar() {
     document.write(
         '<div class="navbar">\n' +
-        '    <a href="index.html" class="active"><img src="icon/home.png" alt="" class="navimage"> Home</a>\n' +
-        '    <a href="aboutme.html"><img src="icon/about.png" alt="" class="navimage"> Me</a>\n' +
-        '    <a href="news.html"><img src="icon/blog.png" alt="" class="navimage"> Blog</a>\n' +
-        '    <a href="forex.html"><img src="icon/forex.png" alt="" class="navimage"> ForEx</a>\n' +
-        '    <a href="info.html"><img src="icon/info.png" alt="" class="navimage"> Info</a>\n' +
+        '    <a href="index.html" class="active"><img src="icon/home.png" alt="" class="nimg"> Home</a>\n' +
+        '    <a href="me.html"><img src="icon/about.png" alt="" class="nimg"> Me</a>\n' +
+        '    <a href="news.html"><img src="icon/blog.png" alt="" class="nimg"> Blog</a>\n' +
+        '    <a href="forex.html"><img src="icon/forex.png" alt="" class="nimg"> ForEx</a>\n' +
+        '    <a href="info.html"><img src="icon/info.png" alt="" class="nimg"> Info</a>\n' +
         '</div>'
     );
 }

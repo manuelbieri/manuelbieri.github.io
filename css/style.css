@@ -48,10 +48,6 @@ body {
     background: #8d8d8d;
 }
 
-.navimage {
-    height: 17px;
-}
-
 .active {
     background-color: #8d8d8d;
 }
@@ -68,6 +64,16 @@ body {
     padding: 6px;
     position: absolute;
     bottom: 0;
+}
+
+.nimg {
+    height: 17px;
+}
+
+.fsimg {
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 
 @media screen and (max-width: 600px) {
