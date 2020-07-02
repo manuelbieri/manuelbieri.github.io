@@ -12,7 +12,7 @@ body {
 }
 
 .main {
-    width: 80%;
+    width: 90%;
     min-height: 100vh;
     margin: auto;
     background-color: #f3f3f3;
@@ -75,7 +75,7 @@ body {
         float: none;
         display: block;
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .main {
