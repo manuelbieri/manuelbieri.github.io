@@ -12,11 +12,11 @@ function head(icon) {
 }
 
 function navbar(active_item) {
-    let active = {index: "", me: "", blog: "", forex: "", info: ""};
+    let active = {home: "", me: "", blog: "", forex: "", info: ""};
     active[active_item] = "active";
     document.write(
         '<div class="navbar">\n' +
-        '    <a href="index.html" class="' + active["index"] + '"><img src="icon/home.png" alt="" class="nimg"> Home</a>\n' +
+        '    <a href="index.html" class="' + active["home"] + '"><img src="icon/home.png" alt="" class="nimg"> Home</a>\n' +
         '    <a href="me.html" class="' + active["me"] + '"><img src="icon/me.png" alt="" class="nimg"> Me</a>\n' +
         '    <a href="blog.html" class="' + active["blog"] + '"><img src="icon/blog.png" alt="" class="nimg"> Blog</a>\n' +
         '    <a href="forex.html" class="' + active["forex"] + '"><img src="icon/forex.png" alt="" class="nimg"> ForEx</a>\n' +
