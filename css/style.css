@@ -9,6 +9,7 @@
 body {
     font-family: "Courier New", serif;
     margin: auto;
+    overflow-y: scroll;
 }
 
 .main {
@@ -71,9 +72,9 @@ body {
 }
 
 .fsimg {
-    width: 80%;
+    width: 100vh;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     padding-bottom: 6%;
 }
 
