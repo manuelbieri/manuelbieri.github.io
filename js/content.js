@@ -10,14 +10,16 @@ function meta() {
     );
 }
 
-function navbar() {
+function navbar(active_item) {
+    let active = {index: "", me: "", blog: "", forex: "", info: ""};
+    active[active_item] = "active";
     document.write(
         '<div class="navbar">\n' +
-        '    <a href="index.html" class="active"><img src="icon/home.png" alt="" class="nimg"> Home</a>\n' +
-        '    <a href="me.html"><img src="icon/about.png" alt="" class="nimg"> Me</a>\n' +
-        '    <a href="news.html"><img src="icon/blog.png" alt="" class="nimg"> Blog</a>\n' +
-        '    <a href="forex.html"><img src="icon/forex.png" alt="" class="nimg"> ForEx</a>\n' +
-        '    <a href="info.html"><img src="icon/info.png" alt="" class="nimg"> Info</a>\n' +
+        '    <a href="index.html" class="' + active["index"] + '"><img src="icon/home.png" alt="" class="nimg"> Home</a>\n' +
+        '    <a href="me.html" class="' + active["me"] + '"><img src="icon/about.png" alt="" class="nimg"> Me</a>\n' +
+        '    <a href="blog.html" class="' + active["blog"] + '"><img src="icon/blog.png" alt="" class="nimg"> Blog</a>\n' +
+        '    <a href="forex.html" class="' + active["forex"] + '"><img src="icon/forex.png" alt="" class="nimg"> ForEx</a>\n' +
+        '    <a href="info.html" class="' + active["info"] + '"><img src="icon/info.png" alt="" class="nimg"> Info</a>\n' +
         '</div>'
     );
 }
