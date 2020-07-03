@@ -56,6 +56,15 @@ body {
 
 .content {
     margin: 0 2%;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+.content p {
+    margin: 0;
+    padding-bottom: 3%;
+    padding-top: 1%;
 }
 
 .footer {
@@ -73,10 +82,17 @@ body {
 }
 
 .fsimg {
-    width: 80%;
+    width: 100%;
     display: block;
     margin: auto;
-    padding-bottom: 6%;
+}
+
+.caption {
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-style: italic;
+
 }
 
 @media screen and (max-width: 690px) {
