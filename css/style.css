@@ -27,7 +27,7 @@ body {
     margin: auto;
     padding: 0;
     overflow: auto;
-    background-color: lightgray;
+    background-color: #d3d3d3;
 }
 
 .navbar a {
@@ -67,6 +67,33 @@ body {
     padding-top: 1%;
 }
 
+.blog {
+    width: 100%;
+    margin: auto;
+}
+
+.blog:nth-child(2n) {
+    background-color: #d3d3d3;
+}
+
+.blog:nth-child(2n+1) {
+    background-color: #f3f3f3;
+}
+
+.blog th {
+    padding-top: 3%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blog th:nth-child(2n+1) {
+    text-align: left;
+}
+
+.blog th:nth-child(2n) {
+    text-align: right;
+}
+
 .footer {
     width: 100%;
     background-color: lightgray;
@@ -92,7 +119,6 @@ body {
     padding-top: 2px;
     padding-bottom: 10px;
     font-style: italic;
-
 }
 
 @media screen and (max-width: 690px) {
