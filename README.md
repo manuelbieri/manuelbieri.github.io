@@ -1,5 +1,3 @@
-# manuelbieri.github.io
+# [manuelbieri.github.io](https://manuelbieri.github.io)
 
-This is my personal webpage created with GitHub Pages.
-
-The whole source code is handwritten by myself.
+This is my personal webpage hosted by GitHub Pages.
