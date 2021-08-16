@@ -8,13 +8,23 @@
     <title>Home</title>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
+    <!--Create navigation-->
     <script>
-        header('Blog',
-            'Here are some blogs, articles or interesting stuff. ');
+        let pageName = 'Blog'
+        navbar(pageName);
     </script>
+    <div class="content">
+        <!--Create page header-->
+        <script>
+            header(pageName,
+                'I blog about my interests or other interesting stuff.');
+        </script>
 
+        <!--Create page content-->
+    </div>
 
+    <!--Create footer-->
     <script>
         footer();
     </script>

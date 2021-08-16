@@ -9,12 +9,26 @@
 </head>
 <body>
 <div class="container">
+    <!--Create navigation-->
     <script>
-        header('Home',
-            'Welcome to my personal webpage.');
+        let pageName = 'Home'
+        navbar(pageName);
     </script>
+    <div class="content">
+        <!--Create page header-->
+        <script>
+            header(pageName,
+                'Welcome to my personal webpage.');
+        </script>
 
+        <!--Create page content-->
+        <script>
+            articleImage('old-times.jpg', 'A smile from earlier')
+            articleText('This page is currently under construction, therefore some information may be outdated or not available.')
+        </script>
+    </div>
 
+    <!--Create footer-->
     <script>
         footer();
     </script>

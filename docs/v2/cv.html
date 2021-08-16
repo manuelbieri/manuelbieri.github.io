@@ -8,13 +8,23 @@
     <title>Home</title>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
+    <!--Create navigation-->
     <script>
-        header('CV',
-            'This is my current cv.');
+        let pageName = 'Curriculum Vitae'
+        navbar(pageName);
     </script>
+    <div class="content">
+        <!--Create page header-->
+        <script>
+            header(pageName,
+                'Soon there will be my CV.');
+        </script>
 
+        <!--Create page content-->
+    </div>
 
+    <!--Create footer-->
     <script>
         footer();
     </script>

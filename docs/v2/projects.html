@@ -8,39 +8,73 @@
     <title>Home</title>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
+    <!--Create navigation-->
     <script>
-        header('Projects',
-            'These are my current projects.');
+        let pageName = 'Projects'
+        navbar(pageName);
     </script>
+    <div class="content">
+        <!--Create page header-->
+        <script>
+            header(pageName,
+                'On this page you can see my current projects. Whenever you can not access a github-repository, it might be private at the moment. In this case, please contact me. I will provide you the access to the repository with joy.');
+        </script>
+        <!--PRP-->
+        <script>
+            articleTitle('Private Resource Planning (PRP)')
+            articleText(
+                'The PRP - project should help to manage list of the everyday life independent of the operating plattform. Therefore the whole data is managed over an API on the backend. Meanwhile on the frontend every plattform can provide its on own app to access the data.'
+            )
+            articleText('The following links are provided for the backend.')
+            articleGithubTable('https://github.com/manuelbieri/PRP-Backend', 'GitHub',
+                'https://github.com/manuelbieri/PRP-Backend/releases', 'v0.2',
+                'https://github.com/manuelbieri/PRP-Backend/wiki', 'Wiki')
+            articleText('Frontend-apps are following the first release of the API and listed as soon as available.')
+        </script>
 
-    <!--PRP-->
-    <script>
-        articleTitle('Private Resource Planning (PRP)')
-        articleText(
-            'Description of the PRP - Project.'
-        )
-    </script>
+        <!--FOREX-->
+        <script>
+            articleTitle('Foreign Exchange (ForEx)')
+            articleText(
+                'The ForEx - Project should help to display different kinds of data in a fast and easy way. Currently, data of the world bank and the ECB is provided. This project is in a bigger rebuild, until the relaunch some information may be outdated.'
+            )
+            articleImage('forex_desktop.png', 'Output on the desktop version of ForEx.')
+            articleImage('forex_web.png', 'ForEx is available for the web too.')
+            articleGithubTable('https://github.com/manuelbieri/ForEx3', 'GitHub',
+                'https://github.com/manuelbieri/ForEx3/releases', 'None',
+                'https://manuelbieri.github.io/ForEx/', 'Project Webpage')
+        </script>
 
-    <!--FOREX-->
-    <script>
-        articleTitle('Foreign Exchange (ForEx)')
-        articleText(
-            'Description of the ForEx - Project.'
-        )
-    </script>
+        <!--Spotify Party-->
+        <script>
+            articleTitle('Spotify-Party')
+            articleText(
+                'The Spotify-Party-App aims to decentralize the management of a song queue. Since this project is pretty new neither a release nor a documentation exist at the moment.'
+            )
+            articleGithubTable('https://github.com/manuelbieri/SpotifyParty', 'GitHub',
+                'https://github.com/manuelbieri/SpotifyParty/releases', 'None',
+                '#', 'None')
+        </script>
 
-    <!--Spotify Party-->
-    <script>
-        articleTitle('Spotify Party')
-        articleText(
-            'Description of the Spotify Party - Project.'
-        )
-    </script>
+        <!--SBB Opendata Visualization-->
+        <script>
+            articleTitle('SBB - Opendata - Visualization')
+            articleText(
+                'During the course <a href="https://www.digitale-nachhaltigkeit.unibe.ch/studium/open_data_veranstaltung/fruehjahrssemester_2021/index_ger.html">Opendata</a> we developed a visualization to compare the delay of a SBB - connection to its rolling stock.'
+            )
+            articleImage('sbb_opendata.png', 'We used data of intercity trains arriving in Berne.')
+            articleImage('sbb_opendata_visual.png', 'The bigger the point, the higher the delay of this connection.')
+            articleGithubTable('https://github.com/manuelbieri/SBB-Opendata-Visualization', 'GitHub',
+                'https://github.com/manuelbieri/SBB-Opendata-Visualization/releases', 'v1',
+                'https://manuelbieri.github.io/SBB-Opendata-Visualization/', 'Visualization and Explanations')
+        </script>
+        <div>
 
-    <script>
-        footer();
-    </script>
-</div>
+            <!--Create footer-->
+            <script>
+                footer();
+            </script>
+        </div>
 </body>
 </html>
