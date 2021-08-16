@@ -53,10 +53,10 @@ function articleText(text) {
     )
 }
 
-function articleImage(rel_path, text) {
+function articleImage(img_name, text) {
     document.write(
         '<div class="text-center">\n' +
-        '   <img src="img/' + rel_path + '" class="img-fluid" alt="Image not available">\n' +
+        '   <img src="media/img/' + img_name + '" class="img-fluid" alt="Image not available">\n' +
         '   <p class="text-center caption"><i>' + text + '</i></p>' +
         '</div>\n'
     )
@@ -67,9 +67,9 @@ function articleGithubTable(url, vcs, releases, version, docs, docs_title = 'Doc
         '<table class="table">' +
         '   <thead>' +
         '       <tr>' +
-        '           <th>VCS</th>' +
-        '           <th>Latest Release</th>' +
-        '           <th>Documentation</th>' +
+        '           <th class="w-25">VCS</th>' +
+        '           <th class="w-25">Release</th>' +
+        '           <th class="w-50">Documentation</th>' +
         '       </tr>' +
         '   </thead>' +
         '   <tbody>' +
