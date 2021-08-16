@@ -6,9 +6,9 @@ This is my personal webpage hosted by GitHub Pages.
 
 The following frameworks/packages/modules are used:
 
-| Name | License  |
-|---|---|
-| [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | MIT |
+| Name | License  | Version |
+|---|---|---|
+| [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | MIT | 5
 
 ### License
 
