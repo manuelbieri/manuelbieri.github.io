@@ -8,7 +8,7 @@
     <title>Curriculum Vitae</title>
 </head>
 <body>
-<div class="container">
+<div class="main">
     <!--Create navigation-->
     <script>
         let pageName = 'Curriculum Vitae'
@@ -18,13 +18,16 @@
         <!--Create page header-->
         <script>
             header(pageName,
-                'This is my latest CV in german.');
+                'This is my latest CV in german. On mobile devices the display may be flawed.');
         </script>
 
         <!--Create page content-->
         <!--TODO: Add view for mobile devices-->
         <!--suppress HtmlUnknownAnchorTarget -->
-        <iframe src="media/documents/cv.pdf#toolbar=0" width="105%" height="500px"></iframe>
+        <object class="pdf-viewer" data="media/documents/cv.pdf#toolbar=0" type="application/pdf">
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <embed class="pdf-viewer" src="media/documents/cv.pdf#toolbar=0"/>
+        </object>
     </div>
 
     <!--Create footer-->
