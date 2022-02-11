@@ -1,10 +1,11 @@
 ---
 title: About
-layout: default
+description: Here you can find details about the professional and educational career of Manuel Bieri.
+layout: content
 ---
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
-<!-- The Timeline -->
+<h4 class="home-page-heading">Professional and Educational Career</h4>
 <div class="container-fluid mx-0 my-5 p-0">
     <ul class="timeline">
         {% for item in site.data.timeline %}
@@ -23,3 +24,31 @@ layout: default
         {% endfor %}
     </ul>
 </div>
+
+
+<h4 class="home-page-heading">Language and Tools</h4>
+With the following tools I am currently best, as I used them in my projects:
+<ul class="list-inline">
+    {% for item in site.data.languages %}
+    {% if item.skill == "1" %}
+    <li class="list-inline-item skill-icon">
+        <a href="{{ item.link }}" target="_blank" rel="noreferrer">
+            <img src="{{ item.icon }}" alt="{{ item.name }}" width="40" height="40"/>
+        </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+Additional languages and tools I have a basic understanding of or I am currently learning:
+<ul class="list-inline">
+    {% for item in site.data.languages %}
+    {% if item.skill == "2" %}
+    <li class="list-inline-item skill-icon">
+        <a href="{{ item.link }}" target="_blank" rel="noreferrer">
+            <img src="{{ item.icon }}" alt="{{ item.name }}" width="40" height="40"/>
+        </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

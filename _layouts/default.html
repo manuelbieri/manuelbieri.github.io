@@ -3,10 +3,12 @@
 <head>
   <title>{{page.title}}</title>
   {%- include header.html -%}
+  <meta itemprop="description" name="description" content="{{ page.description }}" />
   {% seo %}
 </head>
 
 <body>
+<div class="wrapper">
 
   {%- include navbar.html -%}
 
@@ -28,5 +30,6 @@
 
   {%- include footer.html -%}
 
+</div>
 </body>
 </html>

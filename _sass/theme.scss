@@ -11,6 +11,7 @@ $card-min-width:              320px;
 
 .page-heading{
   display: none;
+
 }
 
 .home-page-heading {
@@ -161,6 +162,10 @@ $card-min-width:              320px;
   .repo-card {
     width: 90%;
   }
+}
+
+.footer {
+  font-size: 0.7*$font-size-base;
 }
 
 @import "bootstrap/bootstrap";
