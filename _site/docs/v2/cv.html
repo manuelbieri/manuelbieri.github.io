@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="bootstrap5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script src="js/content.js"></script>
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+<div class="main">
+    <!--Create navigation-->
+    <script>
+        let pageName = 'Curriculum Vitae'
+        navbar(pageName);
+    </script>
+    <div class="content">
+        <!--Create page header-->
+        <script>
+            header(pageName,
+                'This is my latest CV in german. On mobile devices the display may be flawed.');
+        </script>
+
+        <!--Create page content-->
+        <!--TODO: Add view for mobile devices-->
+        <!--suppress HtmlUnknownAnchorTarget -->
+        <object class="pdf-viewer" data="media/documents/cv.pdf#toolbar=0" type="application/pdf">
+            <!--suppress HtmlUnknownAnchorTarget -->
+            <embed class="pdf-viewer" src="media/documents/cv.pdf#toolbar=0"/>
+        </object>
+    </div>
+
+    <!--Create footer-->
+    <script>
+        footer();
+    </script>
+</div>
+</body>
+</html>

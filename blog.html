@@ -1,0 +1,22 @@
+---
+layout: content
+title: Blog
+---
+
+<ul class="p-0">
+    {% for post in site.posts %}
+    <div class="card mx-auto post-card">
+        <div class="card-body">
+            <h3 class="card-title">{{ post.title }}</h3>
+            <span class="post-subtitle">{{post.subtitle}}</span>
+            <span class="post-date">{{post.date| date: "%B %e, %Y"}}</span>
+            <span class="card-text">{{post.excerpt}}</span>
+            {% if post.repo %}
+            <a href="https://github.com/manuelbieri/{{post.repo}}" target="_blank">
+                <img class="repo-card" src="https://github-readme-stats.vercel.app/api/pin/?username=manuelbieri&repo={{post.repo}}&show_owner=true">
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</ul>

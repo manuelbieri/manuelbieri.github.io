@@ -1,0 +1,166 @@
+
+// Overwrite bootstrap variables
+$font-size-base:              1.2rem !default;
+$link-color:                  black !default;
+$card-cap-padding-x:          8px;
+$spacer:                      0.9rem !default;
+$input-btn-focus-width:       .13rem !default;
+$navbar-padding-x:            $spacer !default;
+$card-min-width:              320px;
+
+
+.page-heading{
+  display: none;
+}
+
+.home-page-heading {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+@media screen and (min-width: 1200px){
+  .navbar-nav {
+    position: relative;
+    left: -13%;
+  }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px){
+  .navbar-brand {
+    display: block;
+  }
+
+  .navbar-nav {
+    position: relative;
+    left: -73px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .page-heading {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: $spacer;
+  }
+
+  .navbar-brand {
+    display: block;
+    position: relative;
+    left: 40px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+}
+
+.limited-span {
+  width: 65%;
+  margin: auto;
+}
+
+.github-stats {
+  width: 80%;
+  display: block;
+  margin: 20px auto auto;
+}
+
+@media screen and (max-width: 990px) {
+  .limited-span {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .limited-span {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .limited-span {
+    width: $card-min-width;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .github-stats {
+    width: 100%;
+  }
+}
+
+.content {
+  margin: auto;
+}
+
+.profile-img {
+  height: 250px;
+  width: 190px;
+}
+
+.sidebar-card {
+  width: $card-min-width;
+}
+
+.social-icon {
+  font-size: $font-size-base;
+  color: black;
+  padding-right: 5px;
+}
+
+.social-link {
+  text-decoration: none;
+  vertical-align: text-top;
+}
+
+.link-icon {
+  color: black;
+  font-size: 0.825em;
+  padding-left: 3px;
+}
+
+.link-img {
+  position: relative;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.skill-icon {
+  margin-bottom: 0.4em;
+}
+
+.post-card {
+  min-width: $card-min-width !important;
+  width: 100%;
+  margin: 10px;
+}
+
+.post-date {
+  display: block;
+  font-size: 0.7*$font-size-base;
+}
+
+.post-subtitle {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-size: 1.2*$font-size-base;
+}
+
+@media screen and (max-width: 480px){
+  .repo-card {
+    width: 90%;
+  }
+}
+
+@import "bootstrap/bootstrap";

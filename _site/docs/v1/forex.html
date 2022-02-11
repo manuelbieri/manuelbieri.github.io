@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js/content.js"></script>
+    <script>
+        const PageName = "forex";
+        head(PageName);
+    </script>
+    <title>Forex</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+<div class="main">
+    <script>
+        navbar(PageName);
+    </script>
+
+    <div class="content">
+        <h1>My current project - ForEx</h1>
+        <p>
+            ForEx plots exchange rates and datasets in a easy and user-friendly way. The data points are retrieved from
+            the ECB and the World Bank through there official APIs.
+        </p>
+
+        <figure>
+            <img src="Image/forex_screenshot.png" class="fsimg" alt="ForEx Desktop">
+            <figcaption class="caption">Desktop application for Windows and Linux written in pure Python.</figcaption>
+        </figure>
+
+        <p>
+            The desktop application is pure Python and the GUI in PyQt the official Python binding for the Qt framework.
+        </p>
+
+        <figure>
+            <img src="Image/forex_web_screenshot.png" class="fsimg" alt="ForEx WebApp">
+            <figcaption class="caption">Responsive web application (even for use on smartphones).</figcaption>
+        </figure>
+
+        <p>
+            Beside HTML/CSS is Bootstrap the main ingredient for the web application due to its great use for responsive
+            webpages.
+        </p>
+
+        <figure>
+            <img src="Image/forex_output.png" class="fsimg" alt="ForEx WebApp">
+            <figcaption class="caption">ForEx offers about 30 currencies and about 100 offline datasets for 50
+                countries.
+            </figcaption>
+        </figure>
+
+        <p>You can find further information and the documentation of the project on <a
+                href="https://manuelbieri.github.io/ForEx/" target="_blank">the official page</a>.</p>
+        <br>
+    </div>
+
+    <script>
+        footer();
+    </script>
+</div>
+</body>
+</html>

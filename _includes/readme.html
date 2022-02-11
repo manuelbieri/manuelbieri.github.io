@@ -1,0 +1,40 @@
+<h3 class="home-page-heading">Welcome to my Website!</h3>
+<h5 class="home-page-heading">I am an economics student and programming enthusiast from Switzerland</h5>
+
+<ul class="list-unstyled">
+  <li>
+    🌱 I’m currently learning Swift and Ruby
+  </li>
+  <li>
+    👨‍💻 My projects are available at: <a href="https://github.com/manuelbieri">github.com/manuelbieri</a>
+  </li>
+</ul>
+
+<h4 class="home-page-heading">Language and Tools</h4>
+With the following tools I am currently best, as I used them in my projects:
+<ul class="list-inline">
+  {% for item in site.data.languages %}
+  {% if item.skill == "1" %}
+  <li class="list-inline-item skill-icon">
+    <a href="{{ item.link }}" target="_blank" rel="noreferrer">
+      <img src="{{ item.icon }}" alt="{{ item.name }}" width="40" height="40"/>
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+Additional languages and tools I have a basic understanding of or I am currently learning:
+<ul class="list-inline">
+  {% for item in site.data.languages %}
+  {% if item.skill == "2" %}
+  <li class="list-inline-item skill-icon">
+    <a href="{{ item.link }}" target="_blank" rel="noreferrer">
+      <img src="{{ item.icon }}" alt="{{ item.name }}" width="40" height="40"/>
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+Below you can see my (recent) contributions/activities on github:
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=manuelbieri" class="github-stats" alt="manuelbieri" />
