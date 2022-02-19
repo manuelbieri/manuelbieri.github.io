@@ -8,9 +8,9 @@ description: Here you can find blogposts about the projects of Manuel Bieri and 
     {% for post in site.posts %}
     <div class="card mx-auto post-card">
         <div class="card-body">
-            <h3 class="card-title">{{ post.title }}</h3>
-            <span class="post-subtitle">{{post.subtitle}}</span>
             <span class="post-date">{{post.date| date: "%B %e, %Y"}}</span>
+            <h5 class="card-title">{{ post.title }}</h5>
+            <span class="post-subtitle">{{post.subtitle}}</span>
             <span class="card-text">{{post.excerpt}}</span>
             {% if post.repo %}
             <a href="https://github.com/manuelbieri/{{post.repo}}" target="_blank">

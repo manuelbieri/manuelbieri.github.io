@@ -148,14 +148,15 @@ $card-min-width:              320px;
 .post-date {
   display: block;
   font-size: 0.7*$font-size-base;
+  margin-bottom: 10px;
 }
 
 .post-subtitle {
   display: block;
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-style: italic;
-  font-size: 1.2*$font-size-base;
+  font-size: 1.05*$font-size-base;
 }
 
 @media screen and (max-width: 480px){

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shelegia and Motta (2021) - The "kill zone"&#58; Copying, acquisition and start-ups direction of innovation
+title: Copying, acquisition and start-ups direction of innovation
 subtitle: This package implements the models of Shelegia and Motta (2021).
 repo: shelegia_motta_2021
 ---
