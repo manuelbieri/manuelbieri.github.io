@@ -23,7 +23,7 @@ email: manuel.bieri@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the website of Manuel Bieri. Here you can find my information about me and my current projects.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://manuelbieri.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "manuelbieri.ch" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  manuelbieri
 
 twitter:
