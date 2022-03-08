@@ -1,4 +1,4 @@
-# [manuelbieri.github.io](https://manuelbieri.github.io)
+# [manuelbieri.ch](https://manuelbieri.github.io)
 
 This is my personal webpage hosted by GitHub Pages.
 
