@@ -5,7 +5,7 @@ $link-color:                  black !default;
 $card-cap-padding-x:          8px;
 $spacer:                      0.9rem !default;
 $input-btn-focus-width:       .13rem !default;
-$card-min-width:              320px;
+$card-width:                  335px;
 $x-padding:                   30px;
 $x-padding-large:             50px;
 $x-padding-small:             15px;
@@ -29,17 +29,21 @@ $x-padding-small:             15px;
   }
 }
 
+.main {
+  display: flex;
+}
+
 .content {
   width: 70%;
-  min-width: $card-min-width;
+  min-width: $card-width;
   float: left;
   padding-right: $x-padding !important;
   padding-left: $x-padding !important;
+  flex: 1 1;
 }
 
 .sidebar-card {
-  width: 30%;
-  min-width: $card-min-width;
+  width: $card-width;
   float: left;
   margin-bottom: 10px !important;
   padding-right: $x-padding !important;
@@ -51,7 +55,11 @@ $x-padding-small:             15px;
   margin: 20px auto auto;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1133px) {
+  .main {
+    display: inline;
+  }
+
   .content {
     width: 100%;
     padding-right: $x-padding-large !important;

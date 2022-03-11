@@ -12,17 +12,15 @@
 
   {%- include navbar.html -%}
 
-  <main class="page-content" aria-label="Content">
-    <div class="container-fluid p-0 mt-3">
-      <div class="content m-auto">
+  <div class="container-fluid p-0 mt-3 main">
+      <div class="content">
         <h1 class="page-heading">{{ page.title }}</h1>
         {{ content }}
       </div>
       <div class="sidebar-card">
         {%- include sidebar.html -%}
       </div>
-    </div>
-  </main>
+  </div>
 
   {%- include footer.html -%}
 
