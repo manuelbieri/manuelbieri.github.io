@@ -5,7 +5,7 @@ $link-color:                  black !default;
 $card-cap-padding-x:          8px;
 $spacer:                      0.9rem !default;
 $input-btn-focus-width:       .13rem !default;
-$card-min-width:              320px;
+$card-min-width:              280px;
 
 
 .page-heading{
@@ -28,7 +28,7 @@ $card-min-width:              320px;
 
 .limited-span {
   // TODO items are not aligned on timeline
-  width: 85%;
+  width: 90%;
   margin: auto;
 }
 
@@ -62,10 +62,6 @@ $card-min-width:              320px;
   }
 }
 
-.content {
-  margin: auto;
-}
-
 .profile-img {
   height: 250px;
   width: 190px;
@@ -73,6 +69,7 @@ $card-min-width:              320px;
 
 .sidebar-card {
   width: $card-min-width;
+  margin: auto;
 }
 
 .social-icon {
