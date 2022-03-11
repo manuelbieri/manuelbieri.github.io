@@ -14,8 +14,10 @@
 
   <div class="container-fluid p-0 mt-3 main">
       <div class="content">
-        <h1 class="page-heading">{{ page.title }}</h1>
-        {{ content }}
+          <div class="limited-span">
+              <h1 class="page-heading">{{ page.title }}</h1>
+              {{ content }}
+          </div>
       </div>
       <div class="sidebar-card">
         {%- include sidebar.html -%}

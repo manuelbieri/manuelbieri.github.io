@@ -6,7 +6,7 @@ $card-cap-padding-x:          8px;
 $spacer:                      0.9rem !default;
 $input-btn-focus-width:       .13rem !default;
 $card-width:                  335px;
-$x-padding:                   30px;
+$x-padding:                   20px;
 $x-padding-large:             50px;
 $x-padding-small:             15px;
 
@@ -20,26 +20,21 @@ $x-padding-small:             15px;
   margin-bottom: 1em;
 }
 
-@media screen and (max-width: 990px) {
-  .page-heading {
-    display: block;
-    text-align: center;
-    margin: auto;
-    padding-bottom: $spacer;
-  }
-}
-
 .main {
   display: flex;
 }
 
 .content {
-  width: 70%;
   min-width: $card-width;
   float: left;
   padding-right: $x-padding !important;
   padding-left: $x-padding !important;
   flex: 1 1;
+}
+
+.limited-span {
+  width: 90%;
+  margin: auto;
 }
 
 .sidebar-card {
@@ -55,7 +50,7 @@ $x-padding-small:             15px;
   margin: 20px auto auto;
 }
 
-@media screen and (max-width: 1133px) {
+@media screen and (max-width: 1163px) {
   .main {
     display: inline;
   }
@@ -66,10 +61,27 @@ $x-padding-small:             15px;
     padding-left: $x-padding-large !important;
   }
 
+  .limited-span {
+    width: 80%;
+  }
+
   .sidebar-card {
     margin: auto;
     padding: 0 !important;
     float: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .page-heading {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: $spacer;
+  }
+
+  .limited-span {
+    width: 100%;
   }
 }
 
