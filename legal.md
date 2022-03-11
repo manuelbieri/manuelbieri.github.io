@@ -16,4 +16,4 @@ Schweiz</p>
 
 <h4>Haftungsausschluss f&uuml;r Links</h4>
 <p>Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs. Es wird jegliche Verantwortung f&uuml;r solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des jeweiligen Nutzers.</p>
-Quelle: <a href="https://www.swissanwalt.ch" target="_blank" rel="noopener">SwissAnwalt</a>
+Quelle: <a href="https://www.swissanwalt.ch" target="_blank" rel="noopener">SwissAnwalt<i class="bi-box-arrow-up-right link-icon"></i></a>

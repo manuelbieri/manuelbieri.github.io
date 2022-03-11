@@ -5,40 +5,16 @@ $link-color:                  black !default;
 $card-cap-padding-x:          8px;
 $spacer:                      0.9rem !default;
 $input-btn-focus-width:       .13rem !default;
-$navbar-padding-x:            $spacer !default;
 $card-min-width:              320px;
 
 
 .page-heading{
   display: none;
-
 }
 
 .home-page-heading {
   text-align: center;
   margin-bottom: 1em;
-}
-
-.navbar-brand {
-  display: none;
-}
-
-@media screen and (min-width: 1200px){
-  .navbar-nav {
-    position: relative;
-    left: -13%;
-  }
-}
-
-@media screen and (min-width: 990px) and (max-width: 1200px){
-  .navbar-brand {
-    display: block;
-  }
-
-  .navbar-nav {
-    position: relative;
-    left: -73px;
-  }
 }
 
 @media screen and (max-width: 990px) {
@@ -47,18 +23,6 @@ $card-min-width:              320px;
     text-align: center;
     margin: auto;
     padding-bottom: $spacer;
-  }
-
-  .navbar-brand {
-    display: block;
-    position: relative;
-    left: 40px;
-    padding: 0;
-    text-align: center;
-  }
-
-  .nav-item {
-    text-align: center;
   }
 }
 
