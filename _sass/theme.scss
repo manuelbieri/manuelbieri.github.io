@@ -5,7 +5,10 @@ $link-color:                  black !default;
 $card-cap-padding-x:          8px;
 $spacer:                      0.9rem !default;
 $input-btn-focus-width:       .13rem !default;
-$card-min-width:              280px;
+$card-min-width:              320px;
+$x-padding:                   30px;
+$x-padding-large:             50px;
+$x-padding-small:             15px;
 
 
 .page-heading{
@@ -26,10 +29,20 @@ $card-min-width:              280px;
   }
 }
 
-.limited-span {
-  // TODO items are not aligned on timeline
-  width: 90%;
-  margin: auto;
+.content {
+  width: 70%;
+  min-width: $card-min-width;
+  float: left;
+  padding-right: $x-padding !important;
+  padding-left: $x-padding !important;
+}
+
+.sidebar-card {
+  width: 30%;
+  min-width: $card-min-width;
+  float: left;
+  margin-bottom: 10px !important;
+  padding-right: $x-padding !important;
 }
 
 .github-stats {
@@ -38,38 +51,31 @@ $card-min-width:              280px;
   margin: 20px auto auto;
 }
 
-@media screen and (max-width: 990px) {
-  .limited-span {
-    width: 85%;
+@media screen and (max-width: 1100px) {
+  .content {
+    width: 100%;
+    padding-right: $x-padding-large !important;
+    padding-left: $x-padding-large !important;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .limited-span {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .limited-span {
-    width: $card-min-width;
+  .sidebar-card {
+    margin: auto;
+    padding: 0 !important;
+    float: none;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .github-stats {
+  .content {
     width: 100%;
+    padding-right: $x-padding-small !important;
+    padding-left: $x-padding-small !important;
   }
 }
 
 .profile-img {
   height: 250px;
   width: 190px;
-}
-
-.sidebar-card {
-  width: $card-min-width;
-  margin: auto;
 }
 
 .social-icon {
@@ -102,9 +108,8 @@ $card-min-width:              280px;
 }
 
 .post-card {
-  min-width: $card-min-width !important;
   width: 100%;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .post-date {

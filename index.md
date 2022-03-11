@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: content
+layout: default
 ---
 
 {%- include readme.html -%}

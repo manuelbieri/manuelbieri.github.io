@@ -174,7 +174,7 @@
 
 /* ================ Timeline Media Queries ================ */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 809px) {
 
     .timeline {
         width: 100%;

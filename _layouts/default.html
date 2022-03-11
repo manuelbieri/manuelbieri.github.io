@@ -13,15 +13,13 @@
   {%- include navbar.html -%}
 
   <main class="page-content" aria-label="Content">
-    <div class="container-fluid">
-      <div class="row mt-3">
-        <div class="col-xl-9">
-          <h1 class="page-heading">{{ page.title }}</h1>
-          {{ content }}
-        </div>
-        <div class="col-xl-3">
-          {%- include sidebar.html -%}
-        </div>
+    <div class="container-fluid p-0 mt-3">
+      <div class="content m-auto">
+        <h1 class="page-heading">{{ page.title }}</h1>
+        {{ content }}
+      </div>
+      <div class="sidebar-card">
+        {%- include sidebar.html -%}
       </div>
     </div>
   </main>
