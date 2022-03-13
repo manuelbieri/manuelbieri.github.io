@@ -31,7 +31,7 @@ With the following tools I am currently best, as I used them in my projects:
 <div class="skill-container">
         {% for item in site.data.languages %}
         {% if item.skill == "1" %}
-            <a href="{{ item.link }}" target="_blank" rel="noreferrer">
+            <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="skill-link">
                 <img src="{{ item.icon }}" alt="{{ item.name }}" class="skill-icon"/>
             </a>
         {% endif %}
@@ -43,7 +43,7 @@ Additional languages and tools I have a basic understanding of or I am currently
 <div class="skill-container">
     {% for item in site.data.languages %}
     {% if item.skill == "2" %}
-    <a href="{{ item.link }}" target="_blank" rel="noreferrer">
+    <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="skill-link">
         <img src="{{ item.icon }}" alt="{{ item.name }}" class="skill-icon"/>
     </a>
     {% endif %}
