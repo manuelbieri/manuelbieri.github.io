@@ -41,7 +41,7 @@ $x-padding-small:             15px;
   width: $card-width;
   float: left;
   margin-bottom: 10px !important;
-  padding-right: $x-padding !important;
+  margin-right: $x-padding !important;
 }
 
 .github-stats {
@@ -66,7 +66,7 @@ $x-padding-small:             15px;
   }
 
   .sidebar-card {
-    margin: auto;
+    margin: auto !important;
     padding: 0 !important;
     float: none;
   }
