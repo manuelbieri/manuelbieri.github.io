@@ -37,6 +37,11 @@ $x-padding-small:             15px;
   margin: auto;
 }
 
+.table {
+  margin: auto !important;
+  width: 70% !important;
+}
+
 .sidebar-card {
   width: $card-width;
   float: left;
@@ -47,8 +52,15 @@ $x-padding-small:             15px;
 .github-stats {
   width: 80%;
   max-width: 700px;
+  min-width: $card-width;
   display: block;
   margin: 20px auto auto;
+}
+
+@media screen and (min-width: 1461px) {
+  .limited-span {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 1163px) {
