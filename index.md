@@ -10,8 +10,6 @@ layout: default
 
 - 👨‍💻 All of my projects are available at [https://github.com/manuelbieri](https://github.com/manuelbieri)
 
-- 💬 Ask me about **Python and R**
-
 - 📫 How to reach me **me@manuelbieri.ch**
 
 - 📄 Know about my experiences [https://manuelbieri.ch/about.html](https://manuelbieri.ch/about.html)
