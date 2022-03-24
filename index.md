@@ -10,7 +10,7 @@ layout: default
 
 - 👨‍💻 All of my projects are available at [https://github.com/manuelbieri](https://github.com/manuelbieri)
 
-- 📫 How to reach me **me@manuelbieri.ch**
+- 📫 Reach me at [me@manuelbieri.ch](mailto:me@manuelbieri.ch)
 
 - 📄 Know about my experiences [https://manuelbieri.ch/about.html](https://manuelbieri.ch/about.html)
 
