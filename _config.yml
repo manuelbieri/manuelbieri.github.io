@@ -30,6 +30,10 @@ twitter:
   username: bieri_manuel
   card: summary
 
+author:
+  name: Manuel Bieri
+  url: https://manuelbieri.ch
+
 # Build settings
 # theme: minima
 plugins:
