@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{{page.title}} | Manuel Bieri</title>
-  {%- include header.html -%}
-  <meta itemprop="description" name="description" content="{{ page.description }}" />
-  {% seo %}
+    {%- include header.html -%}
+    {% seo %}
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "{{ page.title }}",
+                "item": "{{ site.url }}{{ page.url }}"
+            }]
+        }
+    </script>
+
 </head>
 
 <body>
 <div class="d-flex flex-column min-vh-100">
 
-  {%- include navbar.html -%}
+    {%- include navbar.html -%}
 
-  <div class="container-fluid p-0 mt-3 main">
-      <div class="content">
-          <div class="limited-span">
-              <h1 class="page-heading">{{ page.title }}</h1>
-              {{ content }}
-          </div>
-      </div>
-      <div class="sidebar-card">
-        {%- include sidebar.html -%}
-      </div>
-  </div>
+    <div class="container-fluid p-0 mt-3 main">
+        <div class="content">
+            <div class="limited-span">
+                <h1 class="page-heading">{{ page.title }}</h1>
+                {{ content }}
+            </div>
+        </div>
+        <div class="sidebar-card">
+            {%- include sidebar.html -%}
+        </div>
+    </div>
 
-  {%- include footer.html -%}
+    {%- include footer.html -%}
 
 </div>
 </body>
