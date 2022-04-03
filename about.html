@@ -26,8 +26,8 @@ layout: default
 
 
 <h5 class="home-page-heading">Language and Tools</h5>
-With the following tools I am currently best, as I used them in my projects:
-<div class="skill-container">
+The following tools are the ones I currently know best, as I used them in my recent projects:
+<div class="skill-container mt-4 mb-4">
         {% for item in site.data.languages %}
         {% if item.skill == "1" %}
             <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="skill-link">
@@ -37,9 +37,8 @@ With the following tools I am currently best, as I used them in my projects:
         {% endfor %}
 </div>
 
-
 Additional languages and tools I have a basic understanding of or I am currently learning:
-<div class="skill-container">
+<div class="skill-container mt-4">
     {% for item in site.data.languages %}
     {% if item.skill == "2" %}
     <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="skill-link">
@@ -48,3 +47,7 @@ Additional languages and tools I have a basic understanding of or I am currently
     {% endif %}
     {% endfor %}
 </div>
+
+<p class="mt-4">
+    Further languages and tools I worked with are <a href="https://www.stata.com/">Stata</a>, <a href="https://www.smartpls.com/">SmartPLS</a> and <a href="https://gtoolkit.com/">Glamorous Toolkit</a> (<a href="https://pharo.org/">Pharo</a>)
+</p>

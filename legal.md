@@ -6,8 +6,8 @@ title: Legal Notice
 <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
 <p>Manuel Bieri<br/>
 Schweiz<br>
-E-Mail: manuel.bieri@outlook.com<br/>
-WebSite: http://manuelbieri.ch/ </p>
+E-Mail: me@manuelbieri.ch<br/>
+WebSite: https://manuelbieri.ch/ </p>
 
 <h4>Allgemeiner Hinweis</h4>
 <p>Gest&uuml;tzt auf Artikel 13 der schweizerischen Bundesverfassung und den datenschutzrechtlichen Bestimmungen des Bundes (Datenschutzgesetz, DSG) hat jede Person Anspruch auf Schutz ihrer Privatsph&auml;re sowie auf Schutz vor Missbrauch ihrer pers&ouml;nlichen Daten. Die Betreiber dieser Seiten nehmen den Schutz Ihrer pers&ouml;nlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerkl&auml;rung.</p><p>In Zusammenarbeit mit unseren Hosting-Providern bem&uuml;hen wir uns, die Datenbanken so gut wie m&ouml;glich vor fremden Zugriffen, Verlusten, Missbrauch oder vor F&auml;lschung zu sch&uuml;tzen.</p><p>Wir weisen darauf hin, dass die Daten&uuml;bertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitsl&uuml;cken aufweisen kann. Ein l&uuml;ckenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht m&ouml;glich.</p><p>Durch die Nutzung dieser Website erkl&auml;ren Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gem&auml;ss der nachfolgenden Beschreibung einverstanden. Diese Website kann grunds&auml;tzlich ohne Registrierung besucht werden. Dabei werden Daten wie beispielsweise aufgerufene Seiten bzw. Namen der abgerufenen Datei, Datum und Uhrzeit zu statistischen Zwecken auf dem Server gespeichert, ohne dass diese Daten unmittelbar auf Ihre Person bezogen werden. Personenbezogene Daten, insbesondere Name, Adresse oder E-Mail-Adresse werden soweit m&ouml;glich auf freiwilliger Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der Daten an Dritte.</p>
