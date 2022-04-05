@@ -6,7 +6,7 @@ title: Legal Notice
 <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
 <p>Manuel Bieri<br/>
 Schweiz<br>
-E-Mail: me@manuelbieri.ch<br/>
+E-Mail: mail@manuelbieri.ch<br/>
 WebSite: https://manuelbieri.ch/ </p>
 
 <h4>Allgemeiner Hinweis</h4>
