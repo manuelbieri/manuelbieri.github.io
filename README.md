@@ -1,15 +1,10 @@
-# [manuelbieri.ch](https://manuelbieri.github.io)
+# [manuelbieri.ch](https://manuelbieri.ch)
 
 This is my personal webpage hosted by GitHub Pages.
 
 ### Dependencies
 
-The following frameworks/packages/modules are used:
-
-| Name                                                                         | License | Version |
-|------------------------------------------------------------------------------|---------|---------|
-| [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | MIT     | 5       |
-| [Jekyll](https://jekyllrb.com/)                                              | MIT     | 4       |
+See the [sources - page](https://manuelbieri.ch/sources.html).
 
 ### License
 
