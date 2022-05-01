@@ -7,7 +7,7 @@ layout: default
 
 The following frameworks/packages/modules are used in this website:
 
-{:class="table table-bordered"}
+{:class="table"}
 
 | Name                                                                                                                        | License | Version |
 |-----------------------------------------------------------------------------------------------------------------------------|:-------:|:-------:|
@@ -27,3 +27,5 @@ The icons are retrieved from the following sources:
 - [devicon.dev<i class="bi-box-arrow-up-right link-icon"></i>](https://devicon.dev/)
 - [commons.wikimedia.org<i class="bi-box-arrow-up-right link-icon"></i>](https://commons.wikimedia.org/wiki/Main_Page)
 - [texstudio.org<i class="bi-box-arrow-up-right link-icon"></i>](https://www.texstudio.org/)
+
+The other icons are from [Bootstrap - Icons](https://icons.getbootstrap.com/).
