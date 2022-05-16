@@ -1,6 +1,6 @@
 # [manuelbieri.ch](https://manuelbieri.ch)
 
-This is my personal webpage hosted by GitHub Pages.
+This is my personal webpage hosted on GitHub Pages.
 
 ### Dependencies
 
