@@ -15,5 +15,3 @@ layout: default
 📄 Know about my [experiences](about.html)
 
 😄 Pronouns: he/him
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=manuelbieri" class="github-stats" alt="manuelbieri GitHub stats" />
