@@ -7,11 +7,11 @@ description: Here you can find blogposts about the projects of Manuel Bieri and 
 <ul class="p-0">
     {% for post in site.posts %}
     <div class="card mt-0 post-card">
-        <div class="card-body">
+        <div class="card-body p-5">
             <span class="post-date">{{post.date| date: "%B %e, %Y"}}</span>
             <h5 class="card-title">{{ post.title }}</h5>
             <span class="post-subtitle">{{post.subtitle}}</span>
-            <span class="card-text">{{post.excerpt}}</span>
+            <span class="card-text post-card-text">{{post.excerpt}}</span>
             {% if post.repo %}
             <a href="https://github.com/manuelbieri/{{post.repo}}" target="_blank">
                 <img class="repo-card" src="https://github-readme-stats.vercel.app/api/pin/?username=manuelbieri&repo={{post.repo}}&show_owner=true">

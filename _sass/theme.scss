@@ -184,6 +184,12 @@ $x-padding-small:             15px;
   font-size: 1.05*$font-size-base;
 }
 
+
+.post-card-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 @media screen and (max-width: 480px){
   .repo-card {
     width: 90%;

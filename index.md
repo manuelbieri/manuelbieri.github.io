@@ -2,11 +2,11 @@
 title: Home
 layout: default
 ---
-<h5 class="home-page-heading">Welcome to my Website! I am an economics student and programming enthusiast from Switzerland</h5>
+<h5 class="home-page-heading">Welcome to my Website!</h5>
 
 🔭 I’m currently working on [Fumagalli_2020<i class="bi-box-arrow-up-right link-icon"></i>](https://github.com/manuelbieri/Fumagalli_2020) (find further projects in the [blog](blog.html))
 
-🌱 I’m currently learning **Swift (incl. SwiftUi) and Ruby (context of Jekyll)**
+🌱 I’m currently learning **Swift and SwiftUi**
 
 👨‍💻 All of my projects are available at [github.com/manuelbieri<i class="bi-box-arrow-up-right link-icon"></i>](https://github.com/manuelbieri)
 
@@ -15,5 +15,3 @@ layout: default
 📄 Know about my [experiences](about.html)
 
 😄 Pronouns: he/him
-
-Have a look at my [2021](https://skyline.github.com/manuelbieri/2022) and [2022](https://skyline.github.com/manuelbieri/2022) VR skylines on GitHub.
