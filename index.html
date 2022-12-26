@@ -16,7 +16,7 @@ layout: default
     </li>
 </ul>
 
-<h5 class="home-page-heading" id="experience">Experience</h5>
+<h5 class="home-page-heading mt-5" id="experience">Experience</h5>
 
 <div class="container-fluid mx-0 my-5 p-0">
     <ul class="timeline">
@@ -38,8 +38,9 @@ layout: default
 </div>
 
 
-<h5 class="home-page-heading">Language and Tools</h5>
-The following tools are the ones I know best:
+<h5 class="home-page-heading mt-5">Programming Languages and Tools</h5>
+
+The following incomplete list contains selected languages and tools I am most familiar with:
 <div class="skill-container mt-4 mb-4">
     {% for item in site.data.languages %}
     {% if item.skill == "1" %}
@@ -50,7 +51,7 @@ The following tools are the ones I know best:
     {% endfor %}
 </div>
 
-Additional languages and tools I have a basic understanding of or I am currently learning:
+Additional languages and tools I have a basic understanding of, or I am currently learning are included in the following list:
 <div class="skill-container mt-4">
     {% for item in site.data.languages %}
     {% if item.skill == "2" %}
