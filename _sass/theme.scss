@@ -1,15 +1,18 @@
 
 // Overwrite bootstrap variables
-$font-size-base:              1.2rem !default;
-$link-color:                  black !default;
-$card-cap-padding-x:          8px;
-$spacer:                      0.9rem !default;
-$input-btn-focus-width:       .13rem !default;
-$card-width:                  335px;
-$x-padding:                   20px;
-$x-padding-large:             50px;
-$x-padding-small:             15px;
-
+$font-size-base:                1.2rem !default;
+$link-color:                    black !default;
+$card-cap-padding-x:            8px;
+$spacer:                        0.9rem !default;
+$input-btn-focus-width:         .13rem !default;
+$card-width:                    335px;
+$x-padding:                     20px;
+$x-padding-large:               50px;
+$x-padding-small:               15px;
+$accordion-button-color:        black;
+$accordion-button-bg:           white;
+$accordion-button-active-color: $accordion-button-color;
+$accordion-button-active-bg:    $accordion-button-bg;
 
 .page-heading{
   display: none;
@@ -150,6 +153,12 @@ $x-padding-small:             15px;
   margin-right: 5px;
 }
 
+.index-carousel {
+  max-width: 500px;
+  margin: auto;
+  float: none;
+}
+
 .skill-icon {
   margin-bottom: 0.4em;
   width:40px;
@@ -163,7 +172,6 @@ $x-padding-small:             15px;
 .skill-link{
   text-decoration : none;
 }
-
 
 .post-card {
   width: 100%;

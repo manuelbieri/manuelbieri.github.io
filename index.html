@@ -4,39 +4,28 @@ layout: default
 ---
 <h5 class="home-page-heading">Welcome to my Website!</h5>
 
-<ul class="list-group list-group-flush">
-    <li class="list-group-item">🌱 I’m currently learning <b>Swift and SwiftUi</b></li>
-    <li class="list-group-item">👨‍💻 All of my projects are available at <a href="https://github.com/manuelbieri">github.com/manuelbieri<i class="bi-box-arrow-up-right link-icon"></i></a>
-    </li>
-    <li class="list-group-item">📫 Reach me at <a href="mailto:mail@manuelbieri.ch">mail@manuelbieri.ch</a> or on <a href="https://github.com/manuelbieri">GitHub<i class="bi-box-arrow-up-right link-icon"></i></a>
-    </li>
-    <li class="list-group-item">📄 Know about my <a href="#experience">experiences</a>
-    </li>
-    <li class="list-group-item">😄 Pronouns: he/him
-    </li>
-</ul>
+I am a master student in economics and research assistant at the institute of information system of the university Bern.
+My main interests are in microeconomics such as innovation and industrial organization and information systems about the digital transformation and
+and digital publication of legal content.
 
 <h5 class="home-page-heading mt-5" id="experience">Experience</h5>
 
-<div class="container-fluid mx-0 my-5 p-0">
-    <ul class="timeline">
-        {% for item in site.data.timeline %}
-        <li>
-            <div class="direction-{{item.side}}">
-                <div class="flag-wrapper">
-                    <span class="flag">{{item.title}}</span>
-                    <span class="time-wrapper"><span class="time">{{item.timespan}}</span></span>
-                </div>
-                <div class="desc">
-                    {{item.description}}
-                    <a href="{{item.link}}" target="_blank"><i class="bi-box-arrow-up-right link-icon"></i></a>
-                </div>
+<div class="accordion accordion-flush" id="accordionExample">
+    {% for item in site.data.timeline %}
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="heading{{item.id}}">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{item.id}}" aria-expanded="true" aria-controls="collapse{{item.id}}">
+                <b>{{item.title}}  ({{item.timespan}})</b>
+            </button>
+        </h2>
+        <div id="collapse{{item.id}}" class="accordion-collapse collapse" aria-labelledby="heading{{item.id}}" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                {{item.description}}
             </div>
-        </li>
-        {% endfor %}
-    </ul>
+        </div>
+    </div>
+    {% endfor %}
 </div>
-
 
 <h5 class="home-page-heading mt-5">Programming Languages and Tools</h5>
 

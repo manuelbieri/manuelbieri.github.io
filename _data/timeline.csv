@@ -1,5 +1,5 @@
-side,title,timespan,description,link
-r,University of Bern - IWI,2020 - present,Junior Assistant in Research,https://www.iwi.unibe.ch/
-l,University of Bern,2018 - present,BSc and MSc in Economics,https://www.vwi.unibe.ch/
-r,Enotrac AG,2017 - 2020,Projects including Knowledge Management and Process Redesign,https://www.enotrac.com/en/index.php
-l,Gymnasium Bern - Neufeld,2013 - 2017,Focus on Physics and Applied Mathematics,https://gymneufeld.ch/
+id,side,title,timespan,description,link
+1,r,University of Bern - IWI,2020 - present,Junior Assistant in Research,https://www.iwi.unibe.ch/
+2,l,University of Bern,2018 - present,BSc and MSc in Economics,https://www.vwi.unibe.ch/
+3,r,Enotrac AG,2017 - 2020,Projects including Knowledge Management and Process Redesign,https://www.enotrac.com/en/index.php
+4,l,Gymnasium Bern - Neufeld,2013 - 2017,Focus on Physics and Applied Mathematics,https://gymneufeld.ch/

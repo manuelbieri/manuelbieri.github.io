@@ -18,7 +18,7 @@ The following frameworks/packages/modules are used in this website:
 
 #### Content
 
-The timeline is originally created by Nils Wittler, here you can find the [source code](https://codepen.io/NilsWe/pen/Axdozd). The rest of the content (excluding icons and frameworks) is created by myself.
+The content (excluding icons and frameworks) is created by myself.
 
 <br>
 
