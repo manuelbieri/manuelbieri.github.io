@@ -2,7 +2,8 @@
 title: Home
 layout: default
 ---
-<h5 class="home-page-heading">Welcome to my Website!</h5>
+<h2 class="home-page-heading h2 my-3">Welcome to my Website</h2>
+<hr class="border-2 border-top border-dark">
 
 <p class="text-content">
 I am a master student in economics and research assistant at the institute of information system of the university Bern.
@@ -12,20 +13,28 @@ project I use Dynare and Matlab.
 </p>
 
 
-<h5 class="home-page-heading mt-5" id="experience">Experience</h5>
+<h2 class="home-page-heading h2 mt-5 mb-3" id="experience">Experience</h2>
+<hr class="border-2 border-top border-dark">
 
 <div class="accordion accordion-flush" id="accordionExperience">
     {% for item in site.data.timeline %}
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingExperience{{item.id}}">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExperience{{item.id}}" aria-expanded="true" aria-controls="collapse{{item.id}}">
-                <b>{{item.title}}  ({{item.timespan}})</b>
+                {{item.title}}
             </button>
         </h2>
         <div id="collapseExperience{{item.id}}" class="accordion-collapse collapse" aria-labelledby="heading{Experience{item.id}}" data-bs-parent="#accordionExperience">
             <div class="accordion-body">
+                <p>
+                    <em>
+                        <span style="float: left">{{item.job_title}}</span>
+                        <span style="float: right">{{item.timespan}}</span>
+                    </em>
+                </p>
+                <br>
                 <p class="text-content">
-                    {{item.description}}
+                {{item.description}}
                 </p>
             </div>
         </div>
@@ -33,14 +42,15 @@ project I use Dynare and Matlab.
     {% endfor %}
 </div>
 
-<h5 class="home-page-heading mt-5">Programming Languages and Tools</h5>
+<h2 class="home-page-heading h2 mt-5 mb-3">Programming Languages and Tools</h2>
+<hr class="border-2 border-top border-dark">
 
 <div class="accordion accordion-flush mb-5" id="accordion{{category.short}}">
     {% for category in site.data.categories_pl_tools %}
     <div class="accordion-item">
         <h2 class="accordion-header" id="heading{{category.short}}">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{category.short}}" aria-expanded="true" aria-controls="collapse{{category.short}}">
-                <b>{{category.title}}</b>
+                {{category.title}}
             </button>
         </h2>
         <div id="collapse{{category.short}}" class="accordion-collapse collapse" aria-labelledby="heading{{category.short}}" data-bs-parent="#accordion{{category.short}}">

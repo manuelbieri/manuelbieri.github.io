@@ -1,5 +1,5 @@
-id,side,title,timespan,description,link
-1,r,University of Bern - IWI,2020 - present,"As a research assistant, I worked on project regarding the digital transformation and about the digital publication of legal content.",https://www.iwi.unibe.ch/
-2,l,University of Bern,2018 - present,"I completed my BSc in econmics with minors in information systems and computer science. Currently, I am attending lectrues for my MSc in Economics.",https://www.vwi.unibe.ch/
-3,r,Enotrac AG,2017 - 2020,"During three stints with Enotrac AG i worked on projects about knowledge management and process redesign. Additionally, I worked on electric diagrams.",https://www.enotrac.com/en/index.php
-4,l,Gymnasium Bern - Neufeld,2013 - 2017,"I attended the Gymnasium Neufeuld with a primary focus on physics and applied mathematics and a secondary focus on history.",https://gymneufeld.ch/
+title,timespan,description,link,job_title,id
+University of Bern - IWI,2020 - present,"During numerous projects, I worked on topics regarding the digital transformation and about the digital publication of legal content. Visit the blog for further information about the projects.",https://www.iwi.unibe.ch/,Research Assistant,1
+University of Bern - VWI,2018 - present,"I completed my BSc in econmics with minors in information systems and computer science. Currently, I am attending lectrues for my MSc in Economics.",https://www.vwi.unibe.ch/,BSc & MSc Student,2
+Enotrac AG,2017 - 2020,"During three stints with Enotrac AG i worked on projects about knowledge management and process redesign. Additionally, I worked on electric diagrams.",https://www.enotrac.com/en/index.php,Intern,3
+Gymnasium Bern - Neufeld,2013 - 2017,I attended the Gymnasium Neufeuld with a primary focus on physics and applied mathematics and a secondary focus on history.,https://gymneufeld.ch/,Student,4
