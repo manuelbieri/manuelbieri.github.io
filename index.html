@@ -11,15 +11,15 @@ project I use Dynare and Matlab.
 
 <h5 class="home-page-heading mt-5" id="experience">Experience</h5>
 
-<div class="accordion accordion-flush" id="accordionExample">
+<div class="accordion accordion-flush" id="accordionExperience">
     {% for item in site.data.timeline %}
     <div class="accordion-item">
-        <h2 class="accordion-header" id="heading{{item.id}}">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{item.id}}" aria-expanded="true" aria-controls="collapse{{item.id}}">
+        <h2 class="accordion-header" id="headingExperience{{item.id}}">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExperience{{item.id}}" aria-expanded="true" aria-controls="collapse{{item.id}}">
                 <b>{{item.title}}  ({{item.timespan}})</b>
             </button>
         </h2>
-        <div id="collapse{{item.id}}" class="accordion-collapse collapse" aria-labelledby="heading{{item.id}}" data-bs-parent="#accordionExample">
+        <div id="collapseExperience{{item.id}}" class="accordion-collapse collapse" aria-labelledby="heading{Experience{item.id}}" data-bs-parent="#accordionExperience">
             <div class="accordion-body">
                 {{item.description}}
             </div>
@@ -30,58 +30,37 @@ project I use Dynare and Matlab.
 
 <h5 class="home-page-heading mt-5">Programming Languages and Tools</h5>
 
-The following incomplete list contains selected languages and tools I am most familiar with:
-<div class="skill-container mt-5 mb-5">
-    {% for item in site.data.languages %}
-    {% if item.skill == "1" %}
-    <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="skill-link">
-        <img src="{{ item.icon }}" alt="{{ item.name }}" class="skill-icon"/>
-    </a>
-    {% endif %}
-    {% endfor %}
-</div>
-
-Additional languages and tools I have a basic understanding of, or I am currently learning are included in the following list:
-<div class="skill-container mt-5">
-    {% for item in site.data.languages %}
-    {% if item.skill == "2" %}
-    <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="skill-link">
-        <img src="{{ item.icon }}" alt="{{ item.name }}" class="skill-icon"/>
-    </a>
-    {% endif %}
-    {% endfor %}
-</div>
-
-<p class="mt-5">
-    Further languages and tools I worked with are <a href="https://www.stata.com/">Stata<i class="bi-box-arrow-up-right link-icon"></i></a>,
-    <a href="https://www.smartpls.com/">SmartPLS<i class="bi-box-arrow-up-right link-icon"></i></a> and
-    <a href="https://gtoolkit.com/">Glamorous Toolkit<i class="bi-box-arrow-up-right link-icon"></i></a> (<a href="https://pharo.org/">Pharo<i class="bi-box-arrow-up-right link-icon"></i></a>)
-</p>
-
-<!--
-<div id="carouselIndicators" class="carousel slide index-carousel mt-5 mb-5" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-        {% for item in site.data.carousel %}
-        <div class={% if item.image == "img1" %} "carousel-item active" {% else %} "carousel-item" {% endif %}>
-          <img class="d-block w-100" src="assets/images/img/{{ item.image }}.jpeg" alt="{{ item.title }}">
-          <div class="carousel-caption d-none d-md-block">
-              <h5>{{ item.title }}</h5>
-          </div>
+<div class="accordion accordion-flush mb-5" id="accordion{{category.short}}">
+    {% for category in site.data.categories_pl_tools %}
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="heading{{category.short}}">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{category.short}}" aria-expanded="true" aria-controls="collapse{{category.short}}">
+                <b>{{category.title}}</b>
+            </button>
+        </h2>
+        <div id="collapse{{category.short}}" class="accordion-collapse collapse" aria-labelledby="heading{{category.short}}" data-bs-parent="#accordion{{category.short}}">
+            <div class="accordion-body">
+                {% for item in site.data.languages %}
+                    {% if item.category == category.short %}
+                        <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="skill-link">
+                            <img src="{{ item.icon }}" alt="{{ item.name }}" class="skill-icon"/>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+                {% if category.short == "stat" %}
+                <p class="mt-2">
+                    Further statistical software I worked with are <a href="https://www.stata.com/">Stata<i class="bi-box-arrow-up-right link-icon"></i></a> and
+                    <a href="https://www.smartpls.com/">SmartPLS<i class="bi-box-arrow-up-right link-icon"></i></a>.
+                </p>
+                {% endif %}
+                {% if category.short == "pl" %}
+                <p class="mt-2">
+                    Additionally, I worked with <a href="https://gtoolkit.com/">Glamorous Toolkit<i class="bi-box-arrow-up-right link-icon"></i></a> (<a href="https://pharo.org/">Pharo<i class="bi-box-arrow-up-right link-icon"></i></a>).
+                </p>
+                {% endif %}
+            </div>
         </div>
-        {% endfor %}
-  </div>
-  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only"></span>
-  </a>
-  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only"></span>
-  </a>
+    </div>
+    {% endfor %}
 </div>
--->
+
