@@ -4,10 +4,13 @@ layout: default
 ---
 <h5 class="home-page-heading">Welcome to my Website!</h5>
 
+<p class="text-content">
 I am a master student in economics and research assistant at the institute of information system of the university Bern.
 My main interests are in microeconomics such as innovation and industrial organization and information systems about the digital transformation and
 and digital publication of legal content. Currently, I am learning the Swift language and the corresponding GUI-framework SwiftUI. Additionally, for my most recent
 project I use Dynare and Matlab.
+</p>
+
 
 <h5 class="home-page-heading mt-5" id="experience">Experience</h5>
 
@@ -21,7 +24,9 @@ project I use Dynare and Matlab.
         </h2>
         <div id="collapseExperience{{item.id}}" class="accordion-collapse collapse" aria-labelledby="heading{Experience{item.id}}" data-bs-parent="#accordionExperience">
             <div class="accordion-body">
-                {{item.description}}
+                <p class="text-content">
+                    {{item.description}}
+                </p>
             </div>
         </div>
     </div>
