@@ -13,19 +13,17 @@ $accordion-button-color:        black;
 $accordion-button-bg:           white;
 $accordion-button-active-color: $accordion-button-color;
 $accordion-button-active-bg:    $accordion-button-bg;
-
-.page-heading{
-  display: none;
-}
+$icon-size:                     20px;
 
 .home-page-heading {
   text-align: center;
   margin-bottom: 1em;
+  font-size: larger;
 }
 
 .main {
   display: flex;
-  margin-top: 5em !important;
+  margin-top: 3.5em !important;
 }
 
 .navbar-brand {
@@ -67,7 +65,7 @@ $accordion-button-active-bg:    $accordion-button-bg;
   }
 }
 
-@media screen and (max-width: 1163px) {
+@media screen and (max-width: 1199px) {
   .main {
     display: inline;
   }
@@ -81,22 +79,9 @@ $accordion-button-active-bg:    $accordion-button-bg;
   .limited-span {
     width: 80%;
   }
-
-  .sidebar-card {
-    margin: auto !important;
-    padding: 0 !important;
-    float: none;
-  }
 }
 
 @media screen and (max-width: 991px) {
-  .page-heading {
-    display: block;
-    text-align: center;
-    margin: auto;
-    padding-bottom: $spacer;
-  }
-
   .navbar-brand {
     margin: 0 auto !important;
     position: relative;
@@ -109,6 +94,30 @@ $accordion-button-active-bg:    $accordion-button-bg;
 
   .limited-span {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1199px){
+  .sidebar-card {
+    width: 80%;
+    max-width: 480px;
+    margin: auto !important;
+    padding: 0 !important;
+    float: none;
+  }
+
+  .sidebar-image{
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sidebar-card {
+    width: $card-width;
+    float: none;
+    margin-bottom: 10px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
 }
 
@@ -129,6 +138,8 @@ $accordion-button-active-bg:    $accordion-button-bg;
   font-size: $font-size-base;
   color: black;
   padding-right: 5px;
+  height: $icon-size;
+  width: $icon-size+5px;
 }
 
 .social-link {

@@ -5,7 +5,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-0">
                 {% for item in site.data.pages %}
                 <li class="nav-item">
                     <a class={% if page.url == item.link %} "nav-link active"{% else %}"nav-link"{% endif %} href="{{ site.baseurl }}{{ item.link }}" >{{ item.display }}</a>

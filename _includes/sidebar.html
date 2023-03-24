@@ -1,33 +1,45 @@
 
 <div class="my-4 mt-0 m-0">
-    <div class="card mx-auto sidebar-card">
-        <img class="card-img-top align-content-center justify-content-center" src="assets/images/head.webp" alt="Card image" width="333px" height="443px">
-        <div class="card-body">
-            <h4 class="card-title">{{site.data.info.first}} {{site.data.info.last}}</h4>
-            <ul class="list list-unstyled m-0">
-                <li class="list-item">
-                        <i class="bi-gender-ambiguous social-icon"></i>
-                        <em>he/him</em>
-                </li>
-                <li class="list-item">
-                    <a href="{{site.data.info.github.link}}" target="_blank" class="social-link">
-                        <i class="bi-github social-icon"></i>
-                        @{{site.data.info.github.name}}
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a href="{{site.data.info.stackoverflow.link}}" target="_blank" class="social-link">
-                        <i class="bi-stack-overflow social-icon"></i>
-                        @{{site.data.info.stackoverflow.name}}
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a href="mailto:{{site.data.info.mail}}" target="_blank" class="social-link">
-                        <i class="bi-envelope social-icon"></i>
-                        {{site.data.info.mail}}
-                    </a>
-                </li>
-            </ul>
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-sm-5 col-xl-12">
+                <img class="card-img-top align-content-center justify-content-center sidebar-image" src="assets/images/head.webp" alt="Card image">
+            </div>
+            <div class="col-sm-7 col-xl-12">
+                <div class="card-body">
+                    <h4 class="card-title">{{site.data.info.first}} {{site.data.info.last}}</h4>
+                    <ul class="list list-unstyled m-0">
+                        <li class="list-item">
+                            <i class="bi-gender-ambiguous social-icon"></i>
+                            <em>he/him</em>
+                        </li>
+                        <li class="list-item">
+                            <a href="{{site.data.info.github.link}}" target="_blank" class="social-link">
+                                <i class="bi-github social-icon"></i>
+                                @{{site.data.info.github.name}}
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="{{site.data.info.stackoverflow.link}}" target="_blank" class="social-link">
+                                <i class="bi-stack-overflow social-icon"></i>
+                                @{{site.data.info.stackoverflow.name}}
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="mailto:{{site.data.info.mail}}" target="_blank" class="social-link">
+                                <i class="bi-envelope social-icon"></i>
+                                {{site.data.info.mail}}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://orcid.org/0000-0002-1530-423X" target="_blank" class="social-link">
+                                <img alt="ORCID logo" src="assets/images/orcid.png" class="social-icon"/>
+                                0000-0002-1530-423X
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
