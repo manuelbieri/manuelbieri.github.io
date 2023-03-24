@@ -138,8 +138,8 @@ $icon-size:                     20px;
   font-size: $font-size-base;
   color: black;
   padding-right: 5px;
-  height: $icon-size;
-  width: $icon-size+5px;
+  height: $icon-size !important;
+  width: $icon-size+5px !important;
 }
 
 .social-link {
