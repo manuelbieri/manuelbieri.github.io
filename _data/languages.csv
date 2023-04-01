@@ -1,13 +1,18 @@
 name,category,link,icon
 Java,pl,https://www.java.com,https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg
-Python,pl,https://www.python.org,https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg
+Python,py,https://www.python.org,https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg
 C,pl,https://www.cprogramming.com/,https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg
 C++,pl,https://www.w3schools.com/cpp/,https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg
 Ruby,pl,https://www.ruby-lang.org/en/,https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg
+Jekyll,pl,https://jekyllrb.com/,https://raw.githubusercontent.com/devicons/devicon/develop/icons/jekyll/jekyll-original.svg
 Kotlin,pl,https://kotlinlang.org,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg
 Swift,pl,https://developer.apple.com/swift/,https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg
-Jupyter Notebook,tool,https://jupyter.org/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg
-Flask,tool,https://flask.palletsprojects.com/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg
+Jupyter Notebook,py,https://jupyter.org/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg
+Numpy,py,https://numpy.org,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg
+Pandas,py,https://pandas.pydata.org,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg
+Flask,py,https://flask.palletsprojects.com/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg
+FastAPI,py,https://fastapi.tiangolo.com,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg
+PyTest,py,https://pytest.org,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg
 Qt,tool,https://www.qt.io/,https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg
 HTML5,pl,https://www.w3.org/html/,https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg
 CSS,pl,https://www.w3schools.com/css/,https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg
@@ -20,10 +25,9 @@ GitHUb,tool,https://github.com/,https://cdn.jsdelivr.net/gh/devicons/devicon/ico
 PostgreSQL,tool,https://www.postgresql.org,https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg
 SQLite,tool,https://www.sqlite.org/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg
 Linux,tool,https://www.linux.org/,https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg
-Jekyll,tool,https://jekyllrb.com/,https://raw.githubusercontent.com/devicons/devicon/develop/icons/jekyll/jekyll-original.svg
 PHP,pl,https://www.php.net,https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg
 JetBrains,tool,https://www.jetbrains.com/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg
-Latex,tool,https://www.latex-project.org/,https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg
+Latex,tool,https://www.latex-project.org,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg
 TeXstudio,tool,https://www.texstudio.org/,https://www.texstudio.org/images/texstudio128x128.png
 Visual Studio,tool,https://visualstudio.microsoft.com/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg
 Inkscape,tool,https://inkscape.org/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/inkscape/inkscape-original.svg
@@ -32,3 +36,6 @@ r,stat,https://www.r-project.org/,https://cdn.jsdelivr.net/gh/devicons/devicon/i
 RStudio,stat,https://www.rstudio.com/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg
 SPSS,stat,https://www.ibm.com/analytics/spss-statistics-software,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spss/spss-original.svg
 Matlab,stat,https://www.mathworks.com/,https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png
+CodeCov,tool,https://about.codecov.io,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codecov/codecov-plain.svg
+PhotoShop,tool,https://www.photoshop.com,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg
+XCode,tool,https://developer.apple.com/xcode/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg
