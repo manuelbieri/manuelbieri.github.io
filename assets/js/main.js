@@ -17,3 +17,5 @@ $(window).scroll(function() {
 $(window).click(function() {
     resetNavbar();
 });
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
