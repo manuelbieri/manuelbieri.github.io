@@ -14,6 +14,8 @@ $accordion-button-bg:           white;
 $accordion-button-active-color: $accordion-button-color;
 $accordion-button-active-bg:    $accordion-button-bg;
 $icon-size:                     20px;
+$font-weight:                   300;
+$font-weight-bold:              600;
 
 .home-page-heading {
   text-align: center;
@@ -40,6 +42,10 @@ $icon-size:                     20px;
 
 .text-content {
   text-align: justify;
+  font-weight: $font-weight !important;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .limited-span {
@@ -57,6 +63,14 @@ $icon-size:                     20px;
   float: left;
   margin-bottom: 10px !important;
   margin-right: $x-padding !important;
+}
+
+.accordion-button {
+  font-weight: $font-weight-bold !important;
+}
+
+.accordion-body {
+  font-weight: $font-weight !important;
 }
 
 @media screen and (min-width: 1461px) {
@@ -181,6 +195,10 @@ $icon-size:                     20px;
   text-decoration : none;
 }
 
+.card-title {
+  font-weight: $font-weight-bold;
+}
+
 .post-card {
   width: 100%;
   margin-bottom: 10px;
@@ -198,6 +216,7 @@ $icon-size:                     20px;
   margin-bottom: 5px;
   font-style: italic;
   font-size: 1.05*$font-size-base;
+  font-weight: $font-weight;
 }
 
 
