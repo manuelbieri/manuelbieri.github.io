@@ -42,7 +42,7 @@ My main interests are in microeconomics such as innovation and industrial organi
 <h2 class="home-page-heading h2 mt-5 mb-3">Programming Languages and Tools</h2>
 <hr class="border-2 border-top border-dark">
 
-<div class="accordion accordion-flush mb-5" id="accordion{{category.short}}">
+<div class="accordion accordion-flush mb-5" id="accordionSoftware">
     {% for category in site.data.categories_pl_tools %}
     <div class="accordion-item">
         <h2 class="accordion-header" id="heading{{category.short}}">
@@ -50,7 +50,7 @@ My main interests are in microeconomics such as innovation and industrial organi
                 {{category.title}}
             </button>
         </h2>
-        <div id="collapse{{category.short}}" class="accordion-collapse collapse" aria-labelledby="heading{{category.short}}" data-bs-parent="#accordion{{category.short}}">
+        <div id="collapse{{category.short}}" class="accordion-collapse collapse" aria-labelledby="heading{{category.short}}" data-bs-parent="#accordionSoftware">
             <div class="accordion-body">
                 {% for item in site.data.languages %}
                     {% if item.category == category.short %}
