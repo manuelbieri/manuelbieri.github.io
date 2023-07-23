@@ -7,4 +7,4 @@ sitemap: false
 ---
 
 During the course Opendata we developed a visualization to compare the delay of a SBB - connection to its rolling stock or the weather during the connection.
-Find the demo of the visualization under this [link](https://manuelbieri.github.io/SBB-Opendata-Visualization/).
+Find the demo of the visualization under this [link<i class="bi-box-arrow-up-right link-icon"></i>](https://manuelbieri.github.io/SBB-Opendata-Visualization/){:target="_blank"}.

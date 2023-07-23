@@ -7,4 +7,4 @@ sitemap: false
 ---
 
 The models in Shelegia and Motta (2021) try to rationalize the so-called "Kill-Zone" for startup innovations. If you are interested in this topic have a look into the repository.
-The implementation was mentioned as well on Twitter (currently unavailable). Find an exemplary jupyter notebook about the paper on [here](https://manuelbieri.github.io/shelegia_motta_2021/demo.html).
+The implementation was mentioned as well on Twitter (currently unavailable). Find an exemplary jupyter notebook about the paper on [here<i class="bi-box-arrow-up-right link-icon"></i>](https://manuelbieri.github.io/shelegia_motta_2021/demo.html){:target="_blank"}.

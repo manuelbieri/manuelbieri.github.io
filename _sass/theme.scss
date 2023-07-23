@@ -6,7 +6,7 @@ $card-cap-padding-x:            8px;
 $spacer:                        0.9rem !default;
 $input-btn-focus-width:         .13rem !default;
 $card-width:                    335px;
-$x-padding:                     20px;
+$x-padding:                     50px;
 $x-padding-large:               50px;
 $x-padding-small:               15px;
 $accordion-button-color:        black;
@@ -60,6 +60,7 @@ $font-weight-bold:              600;
   float: left;
   margin-bottom: 10px !important;
   margin-right: $x-padding !important;
+  margin-top: 69px !important;
 }
 
 .accordion-button {
