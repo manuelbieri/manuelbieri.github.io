@@ -18,4 +18,7 @@ $(window).click(function() {
     resetNavbar();
 });
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+function setYear() {
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+}
+
