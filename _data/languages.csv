@@ -28,7 +28,7 @@ Linux,tool,https://www.linux.org/,https://raw.githubusercontent.com/devicons/dev
 PHP,pl,https://www.php.net,https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg
 JetBrains,tool,https://www.jetbrains.com/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg
 Latex,tool,https://www.latex-project.org,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg
-TeXstudio,tool,https://www.texstudio.org/,https://www.texstudio.org/images/texstudio128x128.png
+TeXstudio,tool,https://www.texstudio.org/,/assets/images/texstudio.png
 Visual Studio,tool,https://visualstudio.microsoft.com/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg
 Inkscape,tool,https://inkscape.org/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/inkscape/inkscape-original.svg
 Markdown,tool,https://en.wikipedia.org/wiki/Markdown,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg
