@@ -58,7 +58,7 @@ Previously, I worked on the future potential of the digital publication of legal
                 {% for item in site.data.languages %}
                     {% if item.category == category.short %}
                         <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="skill-link">
-                            <img src="{{ item.icon }}" alt="{{ item.name }}" class="skill-icon" data-toggle="tooltip" data-placement="top" title="{{ item.name }}"/>
+                            <img src="{{ item.icon }}" alt="{{ item.name }}" class="skill-icon me-2 mb-2" data-toggle="tooltip" data-placement="top" title="{{ item.name }}"/>
                         </a>
                     {% endif %}
                 {% endfor %}

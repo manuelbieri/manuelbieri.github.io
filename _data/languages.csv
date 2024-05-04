@@ -13,6 +13,7 @@ Numpy,py,https://numpy.org,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nu
 Pandas,py,https://pandas.pydata.org,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg
 Flask,py,https://flask.palletsprojects.com/,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg
 FastAPI,py,https://fastapi.tiangolo.com,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg
+BeeWare,py,https://beeware.org,https://raw.githubusercontent.com/beeware/beeware/a077e0dc750c1d40b3030937b9f7c1f420b1bd96/docs/_static/images/beeware.png
 PyTest,py,https://pytest.org,https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg
 Qt,tool,https://www.qt.io/,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/qt/qt-original.svg
 HTML5,pl,https://www.w3.org/html/,https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg
