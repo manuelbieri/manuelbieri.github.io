@@ -17,6 +17,7 @@ $icon-size:                     20px;
 $font-weight:                   300;
 $font-weight-bold:              600;
 
+// Basic style
 .home-page-heading {
   text-align: center;
   margin-bottom: 1em;
@@ -53,92 +54,6 @@ $font-weight-bold:              600;
 .table {
   margin: auto !important;
   width: 70% !important;
-}
-
-.sidebar-card {
-  width: $card-width;
-  float: left;
-  margin-bottom: 10px !important;
-  margin-right: $x-padding !important;
-  margin-top: 69px !important;
-}
-
-.accordion-button {
-  font-weight: $font-weight-bold !important;
-}
-
-.accordion-body {
-  font-weight: $font-weight !important;
-}
-
-@media screen and (min-width: 2500px) {
-  .limited-span {
-    width: 30% !important;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .main {
-    display: inline;
-  }
-
-  .content {
-    width: 100%;
-    padding-right: $x-padding-large !important;
-    padding-left: $x-padding-large !important;
-  }
-
-  .limited-span {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .navbar-brand {
-    margin: 0 auto !important;
-    position: relative;
-    left: 29px;
-  }
-
-  .navbar-nav {
-    text-align: center;
-  }
-
-  .limited-span {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 576px) and (max-width: 1199px){
-  .sidebar-card {
-    width: 80%;
-    max-width: 480px;
-    margin: auto !important;
-    padding: 0 !important;
-    float: none;
-  }
-
-  .sidebar-image{
-    width: 200px;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .sidebar-card {
-    width: $card-width;
-    float: none;
-    margin-bottom: 10px !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .content {
-    width: 100%;
-    padding-right: $x-padding-small !important;
-    padding-left: $x-padding-small !important;
-  }
 }
 
 .profile-img {
@@ -217,10 +132,119 @@ $font-weight-bold:              600;
   font-weight: $font-weight;
 }
 
-
 .post-card-text {
   text-align: justify;
   text-justify: inter-word;
+}
+
+
+// Sidebar
+.sidebar-card {
+  width: $card-width;
+  float: left;
+  margin-bottom: 10px !important;
+  margin-right: $x-padding !important;
+  margin-top: 69px !important;
+}
+
+// Accordion basic style
+.accordion-button {
+  font-weight: $font-weight-bold !important;
+}
+
+.accordion-body {
+  font-weight: $font-weight !important;
+}
+
+// Control content body size for different screen sizes
+@media screen and (min-width: 3000px) {
+  .limited-span {
+    width: 30% !important;
+  }
+}
+
+@media screen and (min-width: 2500px) and (max-width: 2999px) {
+  .limited-span {
+    width: 40% !important;
+  }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2499px) {
+  .limited-span {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1999px) {
+  .limited-span {
+    width: 75% !important;
+  }
+}
+
+
+// Adjust styles for elements for different screen sizes
+@media screen and (max-width: 1199px) {
+  .main {
+    display: inline;
+  }
+
+  .content {
+    width: 100%;
+    padding-right: $x-padding-large !important;
+    padding-left: $x-padding-large !important;
+  }
+
+  .limited-span {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    margin: 0 auto !important;
+    position: relative;
+    left: 29px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .limited-span {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1199px){
+  .sidebar-card {
+    width: 80%;
+    max-width: 480px;
+    margin: auto !important;
+    padding: 0 !important;
+    float: none;
+  }
+
+  .sidebar-image{
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sidebar-card {
+    width: $card-width;
+    float: none;
+    margin-bottom: 10px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    width: 100%;
+    padding-right: $x-padding-small !important;
+    padding-left: $x-padding-small !important;
+  }
 }
 
 @media screen and (max-width: 480px){
