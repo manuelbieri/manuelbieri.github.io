@@ -71,9 +71,9 @@ $font-weight-bold:              600;
   font-weight: $font-weight !important;
 }
 
-@media screen and (min-width: 1461px) {
+@media screen and (min-width: 2500px) {
   .limited-span {
-    width: 70%;
+    width: 30% !important;
   }
 }
 
