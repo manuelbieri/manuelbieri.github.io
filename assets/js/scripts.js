@@ -22,3 +22,10 @@ function setYear() {
     document.getElementById("year").innerHTML = new Date().getFullYear();
 }
 
+async function copyOpenFeedLink() {
+    window.open("/feed.xml", '_blank').focus();
+    // TODO: Copying the RSS link does not work currently -> "Uncaught (in promise) TypeError: 'clipboardWrite' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+    await navigator.permissions.query({name: 'clipboardWrite'});
+    navigator.clipboard.writeText("/feed.xml");
+}
+
