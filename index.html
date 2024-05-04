@@ -54,22 +54,22 @@ Previously, I worked on the future potential of the digital publication of legal
             </button>
         </h2>
         <div id="collapse{{category.short}}" class="accordion-collapse collapse" aria-labelledby="heading{{category.short}}" data-bs-parent="#accordionSoftware">
-            <div class="accordion-body">
+            <div class="accordion-body mb-3 mt-3">
                 {% for item in site.data.languages %}
                     {% if item.category == category.short %}
                         <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="skill-link">
-                            <img src="{{ item.icon }}" alt="{{ item.name }}" class="skill-icon"/>
+                            <img src="{{ item.icon }}" alt="{{ item.name }}" class="skill-icon" data-toggle="tooltip" data-placement="top" title="{{ item.name }}"/>
                         </a>
                     {% endif %}
                 {% endfor %}
                 {% if category.short == "stat" %}
-                <p class="mt-2">
+                <p class="mb-0">
                     Further, I used <a href="https://www.ibm.com/products/structural-equation-modeling-sem" target="_blank">SPSS Amos<i class="bi-box-arrow-up-right link-icon"></i></a> and
                     <a href="https://www.smartpls.com/" target="_blank">SmartPLS<i class="bi-box-arrow-up-right link-icon"></i></a> for structural equation modelling.
                 </p>
                 {% endif %}
                 {% if category.short == "pl" %}
-                <p class="mt-2">
+                <p class="mb-0">
                     Additionally, I worked with <a href="https://gtoolkit.com/" target="_blank">Glamorous Toolkit<i class="bi-box-arrow-up-right link-icon"></i></a> (<a href="https://pharo.org/" target="_blank">Pharo<i class="bi-box-arrow-up-right link-icon"></i></a>).
                 </p>
                 {% endif %}
