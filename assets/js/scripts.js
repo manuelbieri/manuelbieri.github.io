@@ -1,7 +1,10 @@
 function resetNavbar(){
     const element = document.getElementById("navbarSupportedContent");
-    element.classList.remove("show")
-    element.classList.add("collapse");
+    const navLinks = document.querySelectorAll('.nav-item')
+    if (element.classList.contains("show")) {
+        const bsCollapse = new bootstrap.Collapse(element)
+        navLinks.forEach(() => bsCollapse.hide());
+    }
 }
 
 function resetToggler() {
@@ -9,12 +12,12 @@ function resetToggler() {
     button.blur();
 }
 
-$(window).scroll(function() {
+$(document).scroll(function() {
     resetNavbar();
     resetToggler();
 });
 
-$(window).click(function() {
+$(document).click(function() {
     resetNavbar();
 });
 
