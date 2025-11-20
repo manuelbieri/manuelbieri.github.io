@@ -7,28 +7,34 @@
             </div>
             <div class="col-sm-7 col-xl-12">
                 <div class="card-body">
-                    <h4 class="card-title">{{site.data.info.first}} {{site.data.info.last}}</h4>
+                    <h4 class="card-title">{{site.title}}</h4>
                     <ul class="list list-unstyled m-0">
                         <li class="list-item">
                             <i class="bi-gender-trans social-icon"></i>
                             <em>he/him</em>
                         </li>
                         <li class="list-item">
-                            <a href="{{site.data.info.github.link}}" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <a href="{{site.github.url}}" target="_blank" rel="noopener noreferrer" class="social-link">
                                 <i class="bi-github social-icon"></i>
-                                @{{site.data.info.github.name}}
+                                @{{site.github.name}}
                             </a>
                         </li>
                         <li class="list-item">
-                            <a href="mailto:{{site.data.info.mail}}" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <a href="{{site.linkedin.url}}" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <i class="bi-linkedin social-icon"></i>
+                                @{{site.linkedin.name}}
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="mailto:{{site.email}}" target="_blank" rel="noopener noreferrer" class="social-link">
                                 <i class="bi-envelope-at social-icon"></i>
-                                {{site.data.info.mail}}
+                                {{site.email}}
                             </a>
                         </li>
                         <li>
                             <a href="https://orcid.org/0000-0002-1530-423X" target="_blank" rel="noopener noreferrer" class="social-link">
                                 <img alt="ORCID logo" src="assets/images/orcid.png" class="social-icon"/>
-                                0000-0002-1530-423X
+                                0002-1530-423X
                             </a>
                         </li>
                     </ul>

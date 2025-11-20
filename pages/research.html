@@ -6,7 +6,7 @@ header: Research
 description: Here you can find blogposts about the projects of Manuel Bieri and other stuff.
 ---
 <ul class="p-0">
-    {% for post in site.research %}
+    {% for post in site.research reversed %}
     <div class="card mt-0 post-card {{post.type}}">
         <div class="card-body">
             <span class="post-date">{{post.date| date: "%B %e, %Y"}}</span>

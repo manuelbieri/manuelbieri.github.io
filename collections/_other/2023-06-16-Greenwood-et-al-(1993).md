@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Putting Home Economics into Macroeconomics
 subtitle: This package implements the RBC model of Greenwood et al. (1993) with Matlab and Dynare.
 type: other

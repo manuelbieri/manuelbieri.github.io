@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Copying, acquisition and start-ups direction of innovation
 subtitle: This package implements the models of Shelegia and Motta (2021).
 repo: shelegia_motta_2021

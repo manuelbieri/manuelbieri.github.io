@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Shelving or developing?
 subtitle: This package implements the models of Fumagalli et al. (2020).
 repo: fumagalli_2020

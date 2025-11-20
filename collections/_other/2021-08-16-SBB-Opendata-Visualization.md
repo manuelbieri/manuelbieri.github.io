@@ -1,5 +1,4 @@
 ---
-layout: post
 title: SBB-Opendata-Visualization
 subtitle: Visualization of the delay for train connections of the SBB.
 repo: SBB-Opendata-Visualization
