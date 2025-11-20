@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: /other
+title: Other Projects
+header: Other Projects
+description: Here you can find blogposts about the projects of Manuel Bieri and other stuff.
+---
+<ul class="p-0">
+    {% for post in site.other %}
+    <div class="card mt-0 post-card {{post.type}}">
+        <div class="card-body">
+            <span class="post-date">{{post.date| date: "%B %e, %Y"}}</span>
+            <h5 class="card-title">{{ post.title }}</h5>
+            <span class="post-subtitle">{{post.subtitle}}</span>
+            <span class="card-text post-card-text text-content">{{post.excerpt}}</span>
+        </div>
+    </div>
+    {% endfor %}
+</ul>

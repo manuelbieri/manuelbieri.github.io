@@ -17,6 +17,9 @@ $icon-size:                     20px;
 $font-weight:                   300;
 $font-weight-bold:              600;
 
+$accordion-button-focus-border-color:  rgb(79, 79, 79);
+$accordion-button-focus-box-shadow: rgb(79, 79, 79);
+
 // Basic style
 .home-page-heading {
   text-align: center;
@@ -110,6 +113,10 @@ $font-weight-bold:              600;
 
 .card-title {
   font-weight: $font-weight-bold;
+}
+
+.card-body {
+  padding: 2rem !important;
 }
 
 .post-card {
@@ -267,6 +274,10 @@ $font-weight-bold:              600;
 @media screen and (max-width: 480px){
   .repo-card {
     width: 90%;
+  }
+
+  .card-body {
+    padding: 15px !important;
   }
 }
 

@@ -1,0 +1,23 @@
+{
+  "name": "manuelbieri.ch",
+  "short_name": "MB",
+  "start_url": "/",
+  "id": "/",
+  "icons": [
+    {
+      "src": "assets/images/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/icons/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

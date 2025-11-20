@@ -12,6 +12,18 @@ function resetToggler() {
     button.blur();
 }
 
+function hideBlogPost(type) {
+    [].forEach.call(document.querySelectorAll('.other'), function (el) {
+        el.style.visibility = 'show';
+    });
+    [].forEach.call(document.querySelectorAll('.research'), function (el) {
+        el.style.visibility = 'show';
+    });
+    [].forEach.call(document.querySelectorAll(type), function (el) {
+        el.style.visibility = 'hidden';
+    });
+}
+
 $(document).scroll(function() {
     resetNavbar();
     resetToggler();
